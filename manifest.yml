@@ -1,0 +1,4 @@
+applications:
+  - name: concourse-var-test
+    env:
+      foo: ((foo))
